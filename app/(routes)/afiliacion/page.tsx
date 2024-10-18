@@ -44,12 +44,12 @@ export default function AffiliatePage() {
             </p>
           <p className="text-gray-800 mb-2 dark:text-slate-100">
             <strong>WhatsApp:</strong>{" "}
-            <a href="https://wa.me/51930134408" className="underline" target="_blank" rel="noopener noreferrer"  >
-               930 134 408
+            <a href="https://wa.me/51918237837" className="underline" target="_blank" rel="noopener noreferrer"  >
+            918237837
             </a>
           </p>
           <p className="text-gray-800 mb-2 dark:text-slate-100">
-            <strong>Teléfono:</strong>930 134 408
+            <strong>Teléfono:</strong>918237837
           </p>
           <p className="text-gray-800 mb-2 dark:text-slate-100">
             <strong>Dirección:</strong> Andres Avelino Caceres, Calle lince 124 - Ayacucho

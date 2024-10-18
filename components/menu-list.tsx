@@ -92,7 +92,7 @@ const MenuList = () => {
         <NavigationMenuItem>
         <NavigationMenuLink asChild>
             <Link
-              href="https://maps.app.goo.gl/CsGzxqkLPMfAwMy66"
+              href="https://maps.app.goo.gl/HkejWsiVJRsKF3VZ8"
               target="_blank"
               rel="noopener noreferrer"
             >

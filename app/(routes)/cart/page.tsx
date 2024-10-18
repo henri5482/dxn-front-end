@@ -38,7 +38,7 @@ export default function Page() {
   const handleWhatsApp = () => {
     const productDetails = items.map((item) => `- ${item.attributes.productName}: ${formatPrice(item.attributes.price)}`).join("\n");
     const message = `Hola, me gustaría comprar los siguientes productos:\n\n${productDetails}\n\nTotal: ${formatPrice(totalPrice)}`;
-    const phoneNumber = "51930134408"; // Reemplaza con tu número de WhatsApp
+    const phoneNumber = "51918237837"; // Reemplaza con tu número de WhatsApp
     const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
     window.open(whatsappLink, "_blank");

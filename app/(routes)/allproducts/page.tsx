@@ -19,9 +19,13 @@ export default function AllProductsPage() {
   const [debouncedQuery, setDebouncedQuery] = useState(query); // Estado para el término de búsqueda
   const { result: searchResult, loading: searchLoading } =
     useSearchProducts(query); // Hook de búsqueda mejorado
+    const [isClient, setIsClient] = useState(false);
 
     
-
+    useEffect(() => {
+      setIsClient(true); // Marcamos cuando estamos en el cliente
+    }, []);
+    
     useEffect(() => {
       const handler = setTimeout(() => {
         setDebouncedQuery(query);
@@ -42,6 +46,9 @@ export default function AllProductsPage() {
       : [];
       
   const displayedProducts = query ? searchResult : filteredProducts;
+  if (!isClient) {
+    return null; // Retorna null hasta que estemos en el cliente
+  }
   return (
     <>
     {/* Meta etiquetas para SEO */}

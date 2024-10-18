@@ -13,11 +13,14 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const images = [
-  'https://bavet.eu/assets/uploads/2023/03/BAVET-Teambuilding_Koksijde-2021-66-1450x967.jpg',
-  'https://bavet.eu/assets/uploads/2023/03/BAVET-Teambuilding_Koksijde-2021-52-2-1450x967.jpg',
-  'https://bavet.eu/assets/uploads/2023/03/2022-Bavet-Teambuilding-455-3-1450x967.jpg',
-  'https://bavet.eu/assets/uploads/2023/03/2022-Bavet-Teambuilding-518-1450x967.jpg',
-  'https://bavet.eu/assets/uploads/2023/03/BAVET-Teambuilding_Koksijde-2021-66-1450x967.jpg' // Añadir una imagen extra para el bucle continuo
+  '/redes1.webp',
+  '/redes2.webp',
+  '/redes3.webp',
+  '/redes4.webp',
+  '/redes5.webp',
+  '/redes6.webp',
+  '/redes7.webp',
+   // Añadir una imagen extra para el bucle continuo
 ];
 
 const SocialMediaVideos : React.FC = () => {
@@ -30,7 +33,7 @@ const SocialMediaVideos : React.FC = () => {
         <h2 className="lg:text-4xl  text-2xl font-bold">Nuestras Redes Sociales</h2>
         <div className="flex gap-4">
           <a
-            href="https://www.facebook.com/tu_cuenta"
+            href="https://www.facebook.com/profile.php?id=100077437129801"
             className="text-3xl text-blue-800"
           >
             <FaFacebook />
